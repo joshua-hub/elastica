@@ -1,0 +1,22 @@
+// phys3071 as10 melsom 42593249
+
+josh@ubuntu:~/worksheets/as10-Elastica$ gcc as10-melsom-42593249-1.c -o as10 -Wall -lm
+josh@ubuntu:~/worksheets/as10-Elastica$ ./as10
+Please provide the load to be placed through the beam: 40
+Please provide the step size Delta s: 1e-3  
+Please type the output file name: test
+The height of maximum deflection (y_max) is 0.101935
+
+josh@ubuntu:~/worksheets/as10-Elastica$ ./as10
+Please provide the load to be placed through the beam: 60
+Please provide the step size Delta s: 1e-3
+Please type the output file name: test1
+The height of maximum deflection (y_max) is 0.395881
+
+josh@ubuntu:~/worksheets/as10-Elastica$ ./as10
+Please provide the load to be placed through the beam: 100
+Please provide the step size Delta s: 1e-3
+Please type the output file name: test2
+The height of maximum deflection (y_max) is 0.375635
+
+josh@ubuntu:~/worksheets/as10-Elastica$
